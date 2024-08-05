@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="assets/css/build/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/build/fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <title>Name</title>
+    <meta name='keywords' content='' />
+    <meta name='description' content='' />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <script src="assets/js/build/swiper-bundle.min.js" defer></script> 
+    <script src="assets/js/build/fancybox.min.js" defer></script>
+    <script src="assets/js/main.min.js" defer></script>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__row">
+                <div class="header__logo logo">
+                    <picture class="logo__picture">
+                        <source srcset="assets/img/Logo.svg" type="image/svg+xml">
+                        <img src="assets/img/Logo.png" alt="Logo">
+                    </picture>
+                </div>  
+
+                <div class="header__content">
+                    <div class="header__block"></div>
+
+                    <nav class="header__nav">
+                        <ul class="header__nav_list">
+                            <li class="header__nav_item"><a href="chapter.html" class="header__nav_link">Алкоголизм</a></li>
+                            <li class="header__nav_item"><a href="chapter.html" class="header__nav_link">Наркомания</a></li>
+                            <li class="header__nav_item"><a href="chapter.html" class="header__nav_link">Психиатрия</a></li>
+                            <li class="header__nav_item"><a href="about.html" class="header__nav_link">О нас</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="header-mobile__bottom">
+                        <div class="header-mobile__wrapper">
+                            <div class="header-mobile__item">
+                                <p class="header-mobile__text">телефон для связи:</p>
+                                <a href="tel:89200208822" class="header-mobile__info">8 (920)-020-88-22</a>
+                            </div>
+                            <div class="header-mobile__item">
+                                <p class="header-mobile__text">электронная почта</p>
+                                <a href="mailto:stop-narcology@gmail.com" class="header-mobile__info">stop-narcology@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="header__links">
+                            <a href="#" class="header__link">
+                                <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.0141 0.691638C15.22 0.604963 15.4454 0.57507 15.6668 0.605069C15.8882 0.635067 16.0975 0.723861 16.273 0.862209C16.4484 1.00056 16.5836 1.1834 16.6644 1.39171C16.7452 1.60001 16.7687 1.82617 16.7324 2.04664L14.8424 13.5108C14.6591 14.6166 13.4457 15.2508 12.4316 14.7C11.5832 14.2391 10.3232 13.5291 9.18991 12.7883C8.62324 12.4175 6.88741 11.23 7.10074 10.385C7.28407 9.66247 10.2007 6.94747 11.8674 5.3333C12.5216 4.69914 12.2232 4.3333 11.4507 4.91664C9.53241 6.36497 6.45241 8.56747 5.43407 9.18747C4.53574 9.73414 4.06741 9.82747 3.50741 9.73414C2.48574 9.56414 1.53824 9.30081 0.764907 8.97997C-0.280093 8.54664 -0.22926 7.10997 0.764073 6.69164L15.0141 0.691638Z" fill="#415283" />
+                                </svg>
+                            </a>
+                            <a href="#" class="header__link">
+                                <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.8021 8.29796C17.8021 8.29796 19.4191 9.89496 19.8191 10.634C19.8269 10.6446 19.8329 10.6564 19.8371 10.669C20.0001 10.942 20.0401 11.156 19.9601 11.314C19.8251 11.575 19.3681 11.706 19.2131 11.717H16.3551C16.1561 11.717 15.7421 11.665 15.2381 11.317C14.8531 11.048 14.4701 10.605 14.0991 10.172C13.5451 9.52896 13.0661 8.97096 12.5811 8.97096C12.5198 8.97083 12.459 8.98097 12.4011 9.00096C12.0341 9.11696 11.5681 9.63996 11.5681 11.033C11.5681 11.469 11.2241 11.717 10.9831 11.717H9.67409C9.22809 11.717 6.90609 11.561 4.84709 9.38996C2.32409 6.73196 0.05809 1.39996 0.03609 1.35296C-0.10491 1.00796 0.19109 0.819959 0.51109 0.819959H3.39709C3.78409 0.819959 3.91009 1.05396 3.99809 1.26396C4.10009 1.50496 4.47809 2.46896 5.09809 3.55196C6.10209 5.31396 6.71909 6.03096 7.21209 6.03096C7.30471 6.03123 7.39577 6.00709 7.47609 5.96096C8.12009 5.60696 8.00009 3.30696 7.97009 2.83296C7.97009 2.74096 7.96909 1.80596 7.63909 1.35396C7.40309 1.02996 7.00109 0.903959 6.75809 0.857959C6.82309 0.763959 6.96109 0.619959 7.13809 0.534959C7.57909 0.314959 8.37609 0.282959 9.16709 0.282959H9.60609C10.4641 0.294959 10.6861 0.349959 10.9981 0.428959C11.6261 0.578959 11.6381 0.985959 11.5831 2.37196C11.5671 2.76796 11.5501 3.21396 11.5501 3.73896C11.5501 3.85096 11.5451 3.97596 11.5451 4.10296C11.5261 4.81396 11.5011 5.61496 12.0031 5.94396C12.0682 5.98452 12.1434 6.006 12.2201 6.00596C12.3941 6.00596 12.9151 6.00596 14.3281 3.58096C14.9481 2.50996 15.4281 1.24696 15.4611 1.15196C15.4891 1.09896 15.5731 0.949959 15.6751 0.889959C15.7476 0.851354 15.8289 0.832069 15.9111 0.833959H19.3061C19.6761 0.833959 19.9271 0.889959 19.9761 1.02996C20.0581 1.25696 19.9601 1.94996 18.4101 4.04596C18.1491 4.39496 17.9201 4.69696 17.7191 4.96096C16.3141 6.80496 16.3141 6.89796 17.8021 8.29796Z" fill="#415283" />
+                                </svg>
+                            </a>
+                            <a href="#" class="header__link">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_4034_26)">
+                                        <path d="M11.9286 11.9286C10.3571 13.55 10.2429 15.5714 10.1071 20C14.2357 20 17.0857 19.9857 18.5571 18.5571C19.9857 17.0857 20 14.1 20 10.1071C15.5714 10.25 13.55 10.3571 11.9286 11.9286ZM0 10.1071C0 14.1 0.0142857 17.0857 1.44286 18.5571C2.91429 19.9857 5.76429 20 9.89286 20C9.75 15.5714 9.64286 13.55 8.07143 11.9286C6.45 10.3571 4.42857 10.2429 0 10.1071ZM9.89286 0C5.77143 0 2.91429 0.0142857 1.44286 1.44286C0.0142857 2.91429 0 5.9 0 9.89286C4.42857 9.75 6.45 9.64286 8.07143 8.07143C9.64286 6.45 9.75714 4.42857 9.89286 0ZM11.9286 8.07143C10.3571 6.45 10.2429 4.42857 10.1071 0C14.2357 0 17.0857 0.0142857 18.5571 1.44286C19.9857 2.91429 20 5.9 20 9.89286C15.5714 9.75 13.55 9.64286 11.9286 8.07143Z" fill="#415283" />
+                                        <path d="M20 10.1071V9.89286C15.5714 9.75 13.55 9.64286 11.9286 8.07143C10.3571 6.45 10.2429 4.42857 10.1071 0H9.89286C9.75 4.42857 9.64286 6.45 8.07143 8.07143C6.45 9.64286 4.42857 9.75714 0 9.89286V10.1071C4.42857 10.25 6.45 10.3571 8.07143 11.9286C9.64286 13.55 9.75714 15.5714 9.89286 20H10.1071C10.25 15.5714 10.3571 13.55 11.9286 11.9286C13.55 10.3571 15.5714 10.2429 20 10.1071Z" fill="white" />
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_4034_26">
+                                        <rect width="20" height="20" fill="white" />
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                            <button class="header__link header__link-search popup-btn" data-path="popup-search">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18 18L14.1396 14.1396M14.1396 14.1396C14.7999 13.4793 15.3237 12.6953 15.6811 11.8326C16.0385 10.9698 16.2224 10.0451 16.2224 9.11121C16.2224 8.17735 16.0385 7.25264 15.6811 6.38987C15.3237 5.5271 14.7999 4.74316 14.1396 4.08283C13.4793 3.42249 12.6953 2.89868 11.8326 2.54131C10.9698 2.18394 10.0451 2 9.11121 2C8.17735 2 7.25264 2.18394 6.38987 2.54131C5.5271 2.89868 4.74316 3.42249 4.08283 4.08283C2.74921 5.41644 2 7.2252 2 9.11121C2 10.9972 2.74921 12.806 4.08283 14.1396C5.41644 15.4732 7.2252 16.2224 9.11121 16.2224C10.9972 16.2224 12.806 15.4732 14.1396 14.1396Z" stroke="#44AE83" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>                         
+                    </div>
+                </div>
+
+                <div class="burger__menu">
+                    <span> </span>
+                    <span> </span>
+                </div> 
+            </div>            
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="intro__swiper swiper introSwiper">
+                <div class="swiper-wrapper">
+                    <div class="intro__swiper-slide swiper-slide"><img src="assets/img/sections/intro/intro-bg-1.jpg"></div>
+                    <div class="intro__swiper-slide swiper-slide"><img src="assets/img/sections/intro/intro-bg-2.jpg"></div>
+                    <div class="intro__swiper-slide swiper-slide"><img src="assets/img/sections/intro/intro-bg-1.jpg"></div>
+                    <div class="intro__swiper-slide swiper-slide"><img src="assets/img/sections/intro/intro-bg-2.jpg"></div>
+                </div>
+            </div>
+            <div class="intro__bg"></div>
+
+            <div class="container">
+                <div class="intro__inner">
+                    <div class="intro__labels">
+                        <p class="intro__label label">ПСИХИАТРИЯ</p>
+                        <p class="intro__label label">АЛЬЦГЕЙМЕР</p>
+                        <p class="intro__label label">РАССТРОЙСТВА</p>
+                    </div>
+
+                    <h1 class="intro__title title-h1  animation-item text-animation">Как выявить у себя болезнь Альцгеймера на ранней стадии</h1>
+                    <p class="intro__text">Задача организации, в особенности же новая модель организационной деятельности в значительной степени обуславливает создание направлений прогрессивного развития. Разнообразный и богатый опыт.</p>
+                    <div class="intro__bottom">
+                        <a href="#" class="intro__btn">Читать статью</a>
+                        <div class="intro__info">
+                            <div class="intro__info_item">
+                                <img src="assets/img/icons/calendar.svg" alt="date" class="intro__info_img">
+                                <p class="intro__info_text">24/02</p>
+                            </div>
+                            <div class="intro__info_item">
+                                <img src="assets/img/icons/eye.svg" alt="eye" class="intro__info_img">
+                                <p class="intro__info_text">1200</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="intro__swiper_pag">
+                    <div class="intro__swiper-scrollbar swiper-scrollbar"></div>
+                    <div class="intro__swiper_btns swiper-btns">
+                        <div class="intro__swiper-button-prev swiper-button-prev"></div> 
+                        <div class="intro__swiper-button-next swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="articles section section-top">
+            <div class="container">
+                <h2 class="title animation-item text-animation">Алкоголизм</h2>
+
+                <div class="articles__cards">
+                    <a href="article.html" class="articles__card">
+                        <div class="articles__top">
+                            <img src="assets/img/sections/articles/article-1.jpg" alt="Как выявить у себя болезнь Альцгеймера на ранней стадии" class="articles__img">
+                            <p class="articles__label label">алкоголизм</p>
+                        </div>
+                        <div class="articles__info">
+                            <p class="articles__name">Как выявить у себя болезнь Альцгеймера на ранней стадии</p>
+                            <div class="articles__bottom">
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/calendar-green.svg" alt="date" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">24/02</p>
+                                </div>
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/eye-green.svg" alt="eye" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">1200</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="article.html" class="articles__card">
+                        <div class="articles__top">
+                            <img src="assets/img/sections/articles/article-2.jpg" alt="Сессия с психологом, что нужно знать и как подготовиться" class="articles__img">
+                            <p class="articles__label label">ПСИХИАТРИЯ</p>                            
+                        </div>
+                        <div class="articles__info">
+                            <p class="articles__name">Сессия с психологом, что нужно знать и как подготовиться к консультации</p>
+                            <div class="articles__bottom">
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/calendar-green.svg" alt="date" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">24/02</p>
+                                </div>
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/eye-green.svg" alt="eye" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">1200</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="article.html" class="articles__card">
+                        <div class="articles__top">
+                            <img src="assets/img/sections/articles/article-1.jpg" alt="Как выявить у себя болезнь Альцгеймера на ранней стадии" class="articles__img">
+                            <p class="articles__label label">алкоголизм</p>
+                        </div>
+                        <div class="articles__info">
+                            <p class="articles__name">Как выявить у себя болезнь Альцгеймера на ранней стадии</p>
+                            <div class="articles__bottom">
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/calendar-green.svg" alt="date" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">24/02</p>
+                                </div>
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/eye-green.svg" alt="eye" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">1200</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="article.html" class="articles__card">
+                        <div class="articles__top">
+                            <img src="assets/img/sections/articles/article-1.jpg" alt="Как выявить у себя болезнь Альцгеймера на ранней стадии" class="articles__img">
+                            <p class="articles__label label">алкоголизм</p>                            
+                        </div>
+                        <div class="articles__info">
+                            <p class="articles__name">Как выявить у себя болезнь Альцгеймера на ранней стадии</p>
+                            <div class="articles__bottom">
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/calendar-green.svg" alt="date" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">24/02</p>
+                                </div>
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/eye-green.svg" alt="eye" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">1200</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="article.html" class="articles__card">
+                        <div class="articles__top">
+                            <img src="assets/img/sections/articles/article-1.jpg" alt="Как выявить у себя болезнь Альцгеймера на ранней стадии" class="articles__img">
+                            <p class="articles__label label">алкоголизм</p>                            
+                        </div>
+                        <div class="articles__info">
+                            <p class="articles__name">Как выявить у себя болезнь Альцгеймера на ранней стадии</p>
+                            <div class="articles__bottom">
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/calendar-green.svg" alt="date" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">24/02</p>
+                                </div>
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/eye-green.svg" alt="eye" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">1200</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="article.html" class="articles__card">
+                        <div class="articles__top">
+                            <img src="assets/img/sections/articles/article-2.jpg" alt="Сессия с психологом, что нужно знать и как подготовиться" class="articles__img">
+                            <p class="articles__label label">ПСИХИАТРИЯ</p>                            
+                        </div>
+                        <div class="articles__info">
+                            <p class="articles__name">Сессия с психологом, что нужно знать и как подготовиться к консультации</p>
+                            <div class="articles__bottom">
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/calendar-green.svg" alt="date" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">24/02</p>
+                                </div>
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/eye-green.svg" alt="eye" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">1200</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <a href="#" class="articles__btn">Перейти в раздел +</a>
+            </div>
+        </section>
+
+        <section class="articles section">
+            <div class="container">
+                <h2 class="title animation-item text-animation">Наркомания</h2>
+
+                <div class="articles__cards">
+                    <a href="article.html" class="articles__card">
+                        <div class="articles__top">
+                            <img src="assets/img/sections/articles/article-1.jpg" alt="Как выявить у себя болезнь Альцгеймера на ранней стадии" class="articles__img">
+                            <p class="articles__label label">алкоголизм</p>
+                        </div>
+                        <div class="articles__info">
+                            <p class="articles__name">Как выявить у себя болезнь Альцгеймера на ранней стадии</p>
+                            <div class="articles__bottom">
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/calendar-green.svg" alt="date" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">24/02</p>
+                                </div>
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/eye-green.svg" alt="eye" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">1200</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="article.html" class="articles__card">
+                        <div class="articles__top">
+                            <img src="assets/img/sections/articles/article-2.jpg" alt="Сессия с психологом, что нужно знать и как подготовиться" class="articles__img">
+                            <p class="articles__label label">ПСИХИАТРИЯ</p>                            
+                        </div>
+                        <div class="articles__info">
+                            <p class="articles__name">Сессия с психологом, что нужно знать и как подготовиться к консультации</p>
+                            <div class="articles__bottom">
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/calendar-green.svg" alt="date" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">24/02</p>
+                                </div>
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/eye-green.svg" alt="eye" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">1200</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="article.html" class="articles__card">
+                        <div class="articles__top">
+                            <img src="assets/img/sections/articles/article-1.jpg" alt="Как выявить у себя болезнь Альцгеймера на ранней стадии" class="articles__img">
+                            <p class="articles__label label">алкоголизм</p>
+                        </div>
+                        <div class="articles__info">
+                            <p class="articles__name">Как выявить у себя болезнь Альцгеймера на ранней стадии</p>
+                            <div class="articles__bottom">
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/calendar-green.svg" alt="date" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">24/02</p>
+                                </div>
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/eye-green.svg" alt="eye" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">1200</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="article.html" class="articles__card">
+                        <div class="articles__top">
+                            <img src="assets/img/sections/articles/article-1.jpg" alt="Как выявить у себя болезнь Альцгеймера на ранней стадии" class="articles__img">
+                            <p class="articles__label label">алкоголизм</p>                            
+                        </div>
+                        <div class="articles__info">
+                            <p class="articles__name">Как выявить у себя болезнь Альцгеймера на ранней стадии</p>
+                            <div class="articles__bottom">
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/calendar-green.svg" alt="date" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">24/02</p>
+                                </div>
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/eye-green.svg" alt="eye" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">1200</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="article.html" class="articles__card">
+                        <div class="articles__top">
+                            <img src="assets/img/sections/articles/article-1.jpg" alt="Как выявить у себя болезнь Альцгеймера на ранней стадии" class="articles__img">
+                            <p class="articles__label label">алкоголизм</p>                            
+                        </div>
+                        <div class="articles__info">
+                            <p class="articles__name">Как выявить у себя болезнь Альцгеймера на ранней стадии</p>
+                            <div class="articles__bottom">
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/calendar-green.svg" alt="date" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">24/02</p>
+                                </div>
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/eye-green.svg" alt="eye" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">1200</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="article.html" class="articles__card">
+                        <div class="articles__top">
+                            <img src="assets/img/sections/articles/article-2.jpg" alt="Сессия с психологом, что нужно знать и как подготовиться" class="articles__img">
+                            <p class="articles__label label">ПСИХИАТРИЯ</p>                            
+                        </div>
+                        <div class="articles__info">
+                            <p class="articles__name">Сессия с психологом, что нужно знать и как подготовиться к консультации</p>
+                            <div class="articles__bottom">
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/calendar-green.svg" alt="date" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">24/02</p>
+                                </div>
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/eye-green.svg" alt="eye" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">1200</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <a href="#" class="articles__btn">Перейти в раздел +</a>
+            </div>
+        </section>
+
+        <section class="articles section">
+            <div class="container">
+                <h2 class="title animation-item text-animation">Психиатрия</h2>
+
+                <div class="articles__cards">
+                    <a href="article.html" class="articles__card">
+                        <div class="articles__top">
+                            <img src="assets/img/sections/articles/article-1.jpg" alt="Как выявить у себя болезнь Альцгеймера на ранней стадии" class="articles__img">
+                            <p class="articles__label label">алкоголизм</p>
+                        </div>
+                        <div class="articles__info">
+                            <p class="articles__name">Как выявить у себя болезнь Альцгеймера на ранней стадии</p>
+                            <div class="articles__bottom">
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/calendar-green.svg" alt="date" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">24/02</p>
+                                </div>
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/eye-green.svg" alt="eye" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">1200</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="article.html" class="articles__card">
+                        <div class="articles__top">
+                            <img src="assets/img/sections/articles/article-2.jpg" alt="Сессия с психологом, что нужно знать и как подготовиться" class="articles__img">
+                            <p class="articles__label label">ПСИХИАТРИЯ</p>                            
+                        </div>
+                        <div class="articles__info">
+                            <p class="articles__name">Сессия с психологом, что нужно знать и как подготовиться к консультации</p>
+                            <div class="articles__bottom">
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/calendar-green.svg" alt="date" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">24/02</p>
+                                </div>
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/eye-green.svg" alt="eye" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">1200</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="article.html" class="articles__card">
+                        <div class="articles__top">
+                            <img src="assets/img/sections/articles/article-1.jpg" alt="Как выявить у себя болезнь Альцгеймера на ранней стадии" class="articles__img">
+                            <p class="articles__label label">алкоголизм</p>
+                        </div>
+                        <div class="articles__info">
+                            <p class="articles__name">Как выявить у себя болезнь Альцгеймера на ранней стадии</p>
+                            <div class="articles__bottom">
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/calendar-green.svg" alt="date" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">24/02</p>
+                                </div>
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/eye-green.svg" alt="eye" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">1200</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="article.html" class="articles__card">
+                        <div class="articles__top">
+                            <img src="assets/img/sections/articles/article-1.jpg" alt="Как выявить у себя болезнь Альцгеймера на ранней стадии" class="articles__img">
+                            <p class="articles__label label">алкоголизм</p>                            
+                        </div>
+                        <div class="articles__info">
+                            <p class="articles__name">Как выявить у себя болезнь Альцгеймера на ранней стадии</p>
+                            <div class="articles__bottom">
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/calendar-green.svg" alt="date" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">24/02</p>
+                                </div>
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/eye-green.svg" alt="eye" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">1200</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="article.html" class="articles__card">
+                        <div class="articles__top">
+                            <img src="assets/img/sections/articles/article-1.jpg" alt="Как выявить у себя болезнь Альцгеймера на ранней стадии" class="articles__img">
+                            <p class="articles__label label">алкоголизм</p>                            
+                        </div>
+                        <div class="articles__info">
+                            <p class="articles__name">Как выявить у себя болезнь Альцгеймера на ранней стадии</p>
+                            <div class="articles__bottom">
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/calendar-green.svg" alt="date" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">24/02</p>
+                                </div>
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/eye-green.svg" alt="eye" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">1200</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="article.html" class="articles__card">
+                        <div class="articles__top">
+                            <img src="assets/img/sections/articles/article-2.jpg" alt="Сессия с психологом, что нужно знать и как подготовиться" class="articles__img">
+                            <p class="articles__label label">ПСИХИАТРИЯ</p>                            
+                        </div>
+                        <div class="articles__info">
+                            <p class="articles__name">Сессия с психологом, что нужно знать и как подготовиться к консультации</p>
+                            <div class="articles__bottom">
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/calendar-green.svg" alt="date" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">24/02</p>
+                                </div>
+                                <div class="articles__bottom_item">
+                                    <img src="assets/img/icons/eye-green.svg" alt="eye" class="articles__bottom_img">
+                                    <p class="articles__bottom_text">1200</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <a href="#" class="articles__btn">Перейти в раздел +</a>
+            </div>
+        </section>
+
+        <section class="recommend section section-top">
+            <div class="container">
+                <div class="recommend__top">
+                    <h2 class="recommend__title title animation-item text-animation">Рекомендуем</h2>
+                    <div class="recommend__swiper-btns swiper-btns">
+                        <div class="recommend__swiper-button-prev swiper-button-prev swiper-button-prev--white"></div>
+                        <div class="recommend__swiper-button-next swiper-button-next swiper-button-next--white"></div>                                    
+                    </div> 
+                </div>
+
+
+                <div class="recommend__cards">
+                    <div class="recommend__swiper swiper recommendSwiper">
+                        <div class="swiper-wrapper">
+
+                            <a href="article.html" class="recommend__swiper-slide swiper-slide">
+                                <div class="recommend__card">
+                                    <img src="assets/img/sections/articles/article-1.jpg" alt="" class="recommend__img">
+                                    <p class="articles__label label">алкоголизм</p>
+
+                                    <div class="recommend__info">
+                                        <p class="articles__name">Как выявить у себя болезнь Альцгеймера на ранней стадии</p>
+                                        <div class="articles__bottom recommend__bottom">
+                                            <div class="articles__bottom_item">
+                                                <img src="assets/img/icons/calendar-green.svg" alt="date" class="articles__bottom_img">
+                                                <p class="articles__bottom_text">24/02</p>
+                                            </div>
+                                            <div class="articles__bottom_item">
+                                                <img src="assets/img/icons/eye-green.svg" alt="eye" class="articles__bottom_img">
+                                                <p class="articles__bottom_text">1200</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="article.html" class="recommend__swiper-slide swiper-slide">
+                                <div class="recommend__card">
+                                    <img src="assets/img/sections/articles/article-2.jpg" alt="" class="recommend__img">
+                                    <p class="articles__label label">психиатрия</p>
+
+                                    <div class="recommend__info">
+                                        <p class="articles__name">Сессия с психологом, что нужно знать и как подготовиться к консультации со специалистом</p>
+                                        <div class="articles__bottom recommend__bottom">
+                                            <div class="articles__bottom_item">
+                                                <img src="assets/img/icons/calendar-green.svg" alt="date" class="articles__bottom_img">
+                                                <p class="articles__bottom_text">24/02</p>
+                                            </div>
+                                            <div class="articles__bottom_item">
+                                                <img src="assets/img/icons/eye-green.svg" alt="eye" class="articles__bottom_img">
+                                                <p class="articles__bottom_text">1200</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="article.html" class="recommend__swiper-slide swiper-slide">
+                                <div class="recommend__card">
+                                    <img src="assets/img/sections/articles/article-1.jpg" alt="" class="recommend__img">
+                                    <p class="articles__label label">алкоголизм</p>
+
+                                    <div class="recommend__info">
+                                        <p class="articles__name">Как выявить у себя болезнь Альцгеймера на ранней стадии</p>
+                                        <div class="articles__bottom recommend__bottom">
+                                            <div class="articles__bottom_item">
+                                                <img src="assets/img/icons/calendar-green.svg" alt="date" class="articles__bottom_img">
+                                                <p class="articles__bottom_text">24/02</p>
+                                            </div>
+                                            <div class="articles__bottom_item">
+                                                <img src="assets/img/icons/eye-green.svg" alt="eye" class="articles__bottom_img">
+                                                <p class="articles__bottom_text">1200</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="article.html" class="recommend__swiper-slide swiper-slide">
+                                <div class="recommend__card">
+                                    <img src="assets/img/sections/articles/article-2.jpg" alt="" class="recommend__img">
+                                    <p class="articles__label label">психиатрия</p>
+
+                                    <div class="recommend__info">
+                                        <p class="articles__name">Сессия с психологом, что нужно знать и как подготовиться к консультации со специалистом</p>
+                                        <div class="articles__bottom recommend__bottom">
+                                            <div class="articles__bottom_item">
+                                                <img src="assets/img/icons/calendar-green.svg" alt="date" class="articles__bottom_img">
+                                                <p class="articles__bottom_text">24/02</p>
+                                            </div>
+                                            <div class="articles__bottom_item">
+                                                <img src="assets/img/icons/eye-green.svg" alt="eye" class="articles__bottom_img">
+                                                <p class="articles__bottom_text">1200</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="article.html" class="recommend__swiper-slide swiper-slide">
+                                <div class="recommend__card">
+                                    <img src="assets/img/sections/articles/article-1.jpg" alt="" class="recommend__img">
+                                    <p class="articles__label label">алкоголизм</p>
+
+                                    <div class="recommend__info">
+                                        <p class="articles__name">Как выявить у себя болезнь Альцгеймера на ранней стадии</p>
+                                        <div class="articles__bottom recommend__bottom">
+                                            <div class="articles__bottom_item">
+                                                <img src="assets/img/icons/calendar-green.svg" alt="date" class="articles__bottom_img">
+                                                <p class="articles__bottom_text">24/02</p>
+                                            </div>
+                                            <div class="articles__bottom_item">
+                                                <img src="assets/img/icons/eye-green.svg" alt="eye" class="articles__bottom_img">
+                                                <p class="articles__bottom_text">1200</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__row">
+                <div class="footer__logo logo">
+                    <picture class="logo__picture">
+                        <source srcset="assets/img/Logo-footer.svg" type="image/svg+xml">
+                        <img src="assets/img/Logo-footer.png" alt="Logo">
+                    </picture>
+                </div> 
+
+                <nav class="footer__nav">
+                    <ul class="footer__nav_list">
+                        <li class="footer__nav_item"><a href="#" class="footer__nav_link">Алкоголизм</a></li>
+                        <li class="footer__nav_item"><a href="#" class="footer__nav_link">Наркомания</a></li>
+                        <li class="footer__nav_item"><a href="#" class="footer__nav_link">Психиатрия</a></li>
+                        <li class="footer__nav_item"><a href="#" class="footer__nav_link">О нас</a></li>
+                    </ul>
+                </nav>
+
+                <div class="footer__info">
+                    <div class="footer__contacts">
+                        <div class="footer__contact">
+                            <p>телефон для связи:</p>
+                            <a href="tel:89200208822">8 (920)-020-88-22</a>
+                        </div>
+                        <div class="footer__contact">
+                            <p>электронная почта</p>
+                            <a href="mailto:stop-narcology@gmail.com">stop-narcology@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="footer__networks">
+                        <a href="#" class="header__link footer__link">
+                            <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.0141 0.691638C15.22 0.604963 15.4454 0.57507 15.6668 0.605069C15.8882 0.635067 16.0975 0.723861 16.273 0.862209C16.4484 1.00056 16.5836 1.1834 16.6644 1.39171C16.7452 1.60001 16.7687 1.82617 16.7324 2.04664L14.8424 13.5108C14.6591 14.6166 13.4457 15.2508 12.4316 14.7C11.5832 14.2391 10.3232 13.5291 9.18991 12.7883C8.62324 12.4175 6.88741 11.23 7.10074 10.385C7.28407 9.66247 10.2007 6.94747 11.8674 5.3333C12.5216 4.69914 12.2232 4.3333 11.4507 4.91664C9.53241 6.36497 6.45241 8.56747 5.43407 9.18747C4.53574 9.73414 4.06741 9.82747 3.50741 9.73414C2.48574 9.56414 1.53824 9.30081 0.764907 8.97997C-0.280093 8.54664 -0.22926 7.10997 0.764073 6.69164L15.0141 0.691638Z" fill="#415283" />
+                            </svg>
+                        </a>
+                        <a href="#" class="header__link footer__link">
+                            <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M17.8021 8.29796C17.8021 8.29796 19.4191 9.89496 19.8191 10.634C19.8269 10.6446 19.8329 10.6564 19.8371 10.669C20.0001 10.942 20.0401 11.156 19.9601 11.314C19.8251 11.575 19.3681 11.706 19.2131 11.717H16.3551C16.1561 11.717 15.7421 11.665 15.2381 11.317C14.8531 11.048 14.4701 10.605 14.0991 10.172C13.5451 9.52896 13.0661 8.97096 12.5811 8.97096C12.5198 8.97083 12.459 8.98097 12.4011 9.00096C12.0341 9.11696 11.5681 9.63996 11.5681 11.033C11.5681 11.469 11.2241 11.717 10.9831 11.717H9.67409C9.22809 11.717 6.90609 11.561 4.84709 9.38996C2.32409 6.73196 0.05809 1.39996 0.03609 1.35296C-0.10491 1.00796 0.19109 0.819959 0.51109 0.819959H3.39709C3.78409 0.819959 3.91009 1.05396 3.99809 1.26396C4.10009 1.50496 4.47809 2.46896 5.09809 3.55196C6.10209 5.31396 6.71909 6.03096 7.21209 6.03096C7.30471 6.03123 7.39577 6.00709 7.47609 5.96096C8.12009 5.60696 8.00009 3.30696 7.97009 2.83296C7.97009 2.74096 7.96909 1.80596 7.63909 1.35396C7.40309 1.02996 7.00109 0.903959 6.75809 0.857959C6.82309 0.763959 6.96109 0.619959 7.13809 0.534959C7.57909 0.314959 8.37609 0.282959 9.16709 0.282959H9.60609C10.4641 0.294959 10.6861 0.349959 10.9981 0.428959C11.6261 0.578959 11.6381 0.985959 11.5831 2.37196C11.5671 2.76796 11.5501 3.21396 11.5501 3.73896C11.5501 3.85096 11.5451 3.97596 11.5451 4.10296C11.5261 4.81396 11.5011 5.61496 12.0031 5.94396C12.0682 5.98452 12.1434 6.006 12.2201 6.00596C12.3941 6.00596 12.9151 6.00596 14.3281 3.58096C14.9481 2.50996 15.4281 1.24696 15.4611 1.15196C15.4891 1.09896 15.5731 0.949959 15.6751 0.889959C15.7476 0.851354 15.8289 0.832069 15.9111 0.833959H19.3061C19.6761 0.833959 19.9271 0.889959 19.9761 1.02996C20.0581 1.25696 19.9601 1.94996 18.4101 4.04596C18.1491 4.39496 17.9201 4.69696 17.7191 4.96096C16.3141 6.80496 16.3141 6.89796 17.8021 8.29796Z" fill="#415283" />
+                            </svg>
+                        </a>
+                        <a href="#" class="header__link footer__link">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_4034_26)">
+                                    <path d="M11.9286 11.9286C10.3571 13.55 10.2429 15.5714 10.1071 20C14.2357 20 17.0857 19.9857 18.5571 18.5571C19.9857 17.0857 20 14.1 20 10.1071C15.5714 10.25 13.55 10.3571 11.9286 11.9286ZM0 10.1071C0 14.1 0.0142857 17.0857 1.44286 18.5571C2.91429 19.9857 5.76429 20 9.89286 20C9.75 15.5714 9.64286 13.55 8.07143 11.9286C6.45 10.3571 4.42857 10.2429 0 10.1071ZM9.89286 0C5.77143 0 2.91429 0.0142857 1.44286 1.44286C0.0142857 2.91429 0 5.9 0 9.89286C4.42857 9.75 6.45 9.64286 8.07143 8.07143C9.64286 6.45 9.75714 4.42857 9.89286 0ZM11.9286 8.07143C10.3571 6.45 10.2429 4.42857 10.1071 0C14.2357 0 17.0857 0.0142857 18.5571 1.44286C19.9857 2.91429 20 5.9 20 9.89286C15.5714 9.75 13.55 9.64286 11.9286 8.07143Z" fill="#415283" />
+                                    <path d="M20 10.1071V9.89286C15.5714 9.75 13.55 9.64286 11.9286 8.07143C10.3571 6.45 10.2429 4.42857 10.1071 0H9.89286C9.75 4.42857 9.64286 6.45 8.07143 8.07143C6.45 9.64286 4.42857 9.75714 0 9.89286V10.1071C4.42857 10.25 6.45 10.3571 8.07143 11.9286C9.64286 13.55 9.75714 15.5714 9.89286 20H10.1071C10.25 15.5714 10.3571 13.55 11.9286 11.9286C13.55 10.3571 15.5714 10.2429 20 10.1071Z"  />
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_4034_26">
+                                    <rect width="20" height="20" fill="white" />
+                                </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <button class="header__link header__link-search footer__link footer__link-search popup-btn" data-path="popup-search">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18 18L14.1396 14.1396M14.1396 14.1396C14.7999 13.4793 15.3237 12.6953 15.6811 11.8326C16.0385 10.9698 16.2224 10.0451 16.2224 9.11121C16.2224 8.17735 16.0385 7.25264 15.6811 6.38987C15.3237 5.5271 14.7999 4.74316 14.1396 4.08283C13.4793 3.42249 12.6953 2.89868 11.8326 2.54131C10.9698 2.18394 10.0451 2 9.11121 2C8.17735 2 7.25264 2.18394 6.38987 2.54131C5.5271 2.89868 4.74316 3.42249 4.08283 4.08283C2.74921 5.41644 2 7.2252 2 9.11121C2 10.9972 2.74921 12.806 4.08283 14.1396C5.41644 15.4732 7.2252 16.2224 9.11121 16.2224C10.9972 16.2224 12.806 15.4732 14.1396 14.1396Z" stroke="#44AE83" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </div>   
+                </div>
+            </div>
+
+            <div class="footer__copy">
+                <a href="#" class="footer__politic">Политика конфиденциальности</a>
+                <p class="footer__copy_text">© 2000 - 2024 ООО «stop-narcology»</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="popup" data-target="popup-search"> 
+        <div class="popup__body">
+            <div class="popup__content popup__content_search search-wrapper">
+                <div class="container container-search">
+                    <p class="popup__title title">Поиск по сайту</p>
+                    <form class="popup__form">
+                        <input type="search" placeholder="Введите запрос" required class="popup__input">
+                        <img src="assets/img/icons/search.svg" alt="search" class="popup__icon">
+                    </form>
+
+                    <div class="popup__search ">
+                        <p class="popup__result_text">Популярные запросы:</p>
+                        <ul class="popup__popular_list">
+                            <li><a href="#" class="popup__search_link">Как выявить у себя болезнь Альцгеймера на ранней стадии</a></li>
+                            <li><a href="#" class="popup__search_link">Сессия с психологом, что нужно знать и как подготовиться к консультации</a></li>
+                            <li><a href="#" class="popup__search_link">Как выявить у себя болезнь Альцгеймера на ранней стадии</a></li>
+                            <li><a href="#" class="popup__search_link">Сессия с психологом, что нужно знать и как подготовиться к консультации</a></li>
+                            <li><a href="#" class="popup__search_link">Как выявить у себя болезнь Альцгеймера на ранней стадии</a></li>
+                            <li><a href="#" class="popup__search_link">Сессия с психологом, что нужно знать и как подготовиться к консультации</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="popup__search-result none">
+                        <p class="popup__result_text">По вашему запросу найдено: <span>20</span></p>
+                        <ul class="popup__search-list search-list">
+                            <li>
+                                <a href="#" class="popup__search_name search-name">
+                                    <img src="assets/img/sections/articles/article-1.jpg">
+                                    <span>Как выявить у себя болезнь Альцгеймера на ранней стадии</span>
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 11L11 1M11 1H1M11 1V11" stroke="#415283" stroke-width="1.5" />
+                                    </svg>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="popup__search_name search-name">
+                                    <img src="assets/img/sections/articles/article-2.jpg">
+                                    <span>Сессия с психологом, что нужно знать и как подготовиться к консультации</span>
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 11L11 1M11 1H1M11 1V11" stroke="#415283" stroke-width="1.5" />
+                                    </svg>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="popup__search_name search-name">
+                                    <img src="assets/img/sections/articles/article-1.jpg">
+                                    <span>Как выявить у себя болезнь Альцгеймера на ранней стадии</span>
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 11L11 1M11 1H1M11 1V11" stroke="#415283" stroke-width="1.5" />
+                                    </svg>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="popup__search_name search-name">
+                                    <img src="assets/img/sections/articles/article-2.jpg">
+                                    <span>Сессия с психологом, что нужно знать и как подготовиться к консультации</span>
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 11L11 1M11 1H1M11 1V11" stroke="#415283" stroke-width="1.5" />
+                                    </svg>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="popup__search_name search-name">
+                                    <img src="assets/img/sections/articles/article-1.jpg">
+                                    <span>Как выявить у себя болезнь Альцгеймера на ранней стадии</span>
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 11L11 1M11 1H1M11 1V11" stroke="#415283" stroke-width="1.5" />
+                                    </svg>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="popup__search_name search-name">
+                                    <img src="assets/img/sections/articles/article-2.jpg">
+                                    <span>Сессия с психологом, что нужно знать и как подготовиться к консультации</span>
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 11L11 1M11 1H1M11 1V11" stroke="#415283" stroke-width="1.5" />
+                                    </svg>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="popup__search_name search-name">
+                                    <img src="assets/img/sections/articles/article-1.jpg">
+                                    <span>Как выявить у себя болезнь Альцгеймера на ранней стадии</span>
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 11L11 1M11 1H1M11 1V11" stroke="#415283" stroke-width="1.5" />
+                                    </svg>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="popup__search_name search-name">
+                                    <img src="assets/img/sections/articles/article-2.jpg">
+                                    <span>Сессия с психологом, что нужно знать и как подготовиться к консультации</span>
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 11L11 1M11 1H1M11 1V11" stroke="#415283" stroke-width="1.5" />
+                                    </svg>
+                                </a>
+                            </li>
+
+                        </ul>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
